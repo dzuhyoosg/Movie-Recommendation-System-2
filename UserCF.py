@@ -87,7 +87,7 @@ class UserBasedCF:
 
 
 if __name__ == '__main__':
-    rating_file = '../ml-latest-small/ratings.csv'
+    rating_file = './ml-latest-small/ratings.csv'
     userCF = UserBasedCF()
     userCF.get_dataset(rating_file)
     userCF.calc_user_sim()
